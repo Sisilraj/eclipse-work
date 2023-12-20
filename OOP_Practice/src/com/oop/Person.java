@@ -1,0 +1,22 @@
+package com.oop;
+
+public class Person {
+	
+	 int age;
+	 String name;
+
+    public Person(int age, String name){
+        this.age = age;
+        this.name = name;
+    }
+
+
+	public static void main(String[] args) {
+		 Person p1 = new Person(21,"John");
+	     Person p2 = new Person(24,"Cena");
+	     
+	     System.out.println("Hello "+p1.name+" How old are you? Hmm... I think your age is "+p1.age);
+	     System.out.println("Hello "+p2.name+" How old are you? Hmm... I think your age is "+p2.age);
+	}
+
+}

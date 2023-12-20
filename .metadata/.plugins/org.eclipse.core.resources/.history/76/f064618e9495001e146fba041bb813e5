@@ -1,0 +1,37 @@
+package com.oop;
+
+public class Rectangle {
+
+	//Write a Java program to create a class called "Rectangle" with width and height attributes.
+	//Calculate the area and perimeter of the rectangle.
+		
+	private float width;
+	private float height;
+	
+	public float getWidth() {
+		return width;
+	}
+
+	public void setWidth(float width) {
+		this.width = width;
+	}
+
+	public float getHeight() {
+		return height;
+	}
+
+	public void setHeight(float height) {
+		this.height = height;
+	}
+
+	public static void main(String[] args) {
+		
+		Rectangle r1 = new Rectangle();
+		//2 * (length + width)
+		r1.setHeight(10);
+		r1.setWidth(5);
+		
+		System.out.println("Rectangle's perimeter is "+2*(r1.getHeight() + r1.getWidth()));
+	}
+
+}

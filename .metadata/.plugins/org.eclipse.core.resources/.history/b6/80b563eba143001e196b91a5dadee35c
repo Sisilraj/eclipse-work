@@ -1,0 +1,12 @@
+
+public class findCharactor {
+
+	public static void main(String[] args) {
+		String name = "Hello, World";
+		char sec_char = name.charAt(3);
+		
+		System.out.println(sec_char);
+
+	}
+
+}

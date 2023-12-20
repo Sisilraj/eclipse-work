@@ -1,0 +1,26 @@
+
+public class findCharactor {
+
+	public static void main(String[] args) {
+		//index based get single character
+//		String name = "Hello, World";
+//		char sec_char = name.charAt(3);
+//		
+//		System.out.println(sec_char);
+		
+		// count of given character
+		 String sampleString = "Hello, World!";
+	        char charToCount = 'l'; // The character to count
+	        
+	        int count = 0; // Initialize the count
+	        
+	        // Loop through each character in the string
+	        for (int i = 0; i < sampleString.length(); i++) {
+	            if (sampleString.charAt(i) == charToCount) {
+	                count++; // Increment the count if the character matches
+	            }
+	        }
+	        
+	        System.out.println("The character '" + charToCount + "' appears " + count + " times.");
+	    }
+}

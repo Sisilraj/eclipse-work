@@ -1,0 +1,8 @@
+Feature: Login page Automation of sauce demo App
+Scenario: Check login is succesful with valid credential
+
+Given User is on login page
+When User enter valid username and password
+And Click on login Button
+Then User is navigated to home page
+And Close the browser 
